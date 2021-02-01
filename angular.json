@@ -29,9 +29,12 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/sass/paper-kit.scss",
-              "src/assets/css/demo.css",
-              "src/assets/css/nucleo-icons.css"
+              "node_modules/angular2-multiselect-dropdown/themes/default.theme.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/scss/paper-kit.scss",
+              "src/assets/demo/demo.css",
+              "src/styles.css"
             ],
             "scripts": []
           },

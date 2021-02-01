@@ -68,6 +68,10 @@
             border-radius: $border-radius-extreme;
             margin-top: 1px;
         }
+
+        .nav-separator{
+            border-top: 3px solid #bbb;
+        }
     }
     .navbar-collapse{
         & .nav-item{
