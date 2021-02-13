@@ -9,6 +9,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { AboutUsComponent } from './pages/about_us/about-us.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CardProfileComponent } from './components/card-profile/card-profile.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CardProfileComponent } from './components/card-profile/card-profile.com
     SignupComponent,
     AboutUsComponent,
     CardProfileComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
