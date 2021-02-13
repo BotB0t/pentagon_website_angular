@@ -1,0 +1,29 @@
+<div class="card card-profile card-plain">
+  <div class="card-avatar">
+    <a href="#avatar">
+      <img src="{{ imgRoute }}" alt="..." />
+    </a>
+  </div>
+  <div class="card-block">
+    <a href="#paper-kit">
+      <div class="author">
+        <h4 class="card-title">{{ name }}</h4>
+        <h6 class="card-category">{{ role }}</h6>
+      </div>
+    </a>
+    <p *ngIf="description" class="card-description text-center">
+      {{ description }}
+    </p>
+  </div>
+  <div class="card-footer text-center">
+    <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"
+      ><i class="fa fa-instagram"></i
+    ></a>
+    <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"
+      ><i class="fa fa-facebook"></i
+    ></a>
+    <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"
+      ><i class="fa fa-youtube"></i
+    ></a>
+  </div>
+</div>

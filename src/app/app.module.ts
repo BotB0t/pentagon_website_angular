@@ -6,10 +6,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SignupComponent } from './pages/signup/signup.component';
+import { AboutUsComponent } from './pages/about_us/about-us.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { CardProfileComponent } from './components/card-profile/card-profile.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavbarComponent, SignupComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    SignupComponent,
+    AboutUsComponent,
+    CardProfileComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
